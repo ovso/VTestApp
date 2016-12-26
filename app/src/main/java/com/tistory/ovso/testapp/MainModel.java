@@ -18,34 +18,23 @@ class MainModel {
 
     private List<Info> mInfoList = new ArrayList<>();
     public List<Info> getList() {
+        mInfoList.add(mUser);
+        mInfoList.addAll(mRepoList);
         return mInfoList;
     }
-    public void sort() {
 
-    }
+
     private List<Repo> mRepoList;
     public void setRepoList(List<Repo> repoList) {
         mRepoList = repoList;
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                Collections.sort(mRepoList, new NameAscCompare());
-                mInfoList.add(mUser);
-                mInfoList.addAll(mRepoList);
+        Collections.sort(repoList, new Comparator<Repo>(){
+            public int compare(Repo obj1, Repo obj2)
+            {
+                int o1 = Integer.parseInt(obj1.stargazers_count);
+                int o2 = Integer.parseInt(obj2.stargazers_count);
+                return (o1 > o2 ? -1: (o1 > o2) ? 1:0);
             }
-        }).start();
-    }
-
-    static class NameAscCompare implements Comparator<Repo> {
-
-        /**
-         * 오름차순(ASC)
-         */
-        @Override
-        public int compare(Repo arg0, Repo arg1) {
-            return arg0.stargazers_count.compareTo(arg1.stargazers_count);
-        }
-
+        });
     }
 
 }

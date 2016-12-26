@@ -20,7 +20,5 @@ public interface MainPresenter {
         void setToolbar();
 
         void setRecyclerViewAdapter(List<Info> repoList);
-
-        void setUser(String name, String avatar_url);
     }
 }

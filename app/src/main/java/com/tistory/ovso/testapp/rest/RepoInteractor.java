@@ -36,7 +36,7 @@ public class RepoInteractor {
             public void onResponse(Call<List<Repo>> repoList, Response<List<Repo>> response) {
 
                 if(response.isSuccessful()) {
-                    List<Repo> repos = (List<Repo>) response.body();
+                    List<Repo> repos = response.body();
                     mOnResultListener.onRepo(repos);
                 } else {
                     mOnResultListener.onFail();
