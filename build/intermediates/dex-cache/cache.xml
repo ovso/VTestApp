@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_slice.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b749e43fd9f8d2893fc74abdf6d5c8827a9b39c1">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/main_slice_jar/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/transforms/instantRunSlicer/debug/jars/1/1a/dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="043af634811cccef2ffbf5e15361a85596fc8eb2">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/transforms/dex/debug/folders/1000/1a/dependencies_a04daa0ba7a45142bf7f57e50e799370b16940a4/classes.dex" />
+    </item>
+
+</items>

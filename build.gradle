@@ -24,4 +24,6 @@ task clean(type: Delete) {
 
 ext {
     butterKnifeVersion = '8.4.0'
+    retrofitVersion = '2.1.0'
+    okhttpVersion = '3.4.1'
 }
