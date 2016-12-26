@@ -26,4 +26,5 @@ ext {
     butterKnifeVersion = '8.4.0'
     retrofitVersion = '2.1.0'
     okhttpVersion = '3.4.1'
+    glide = '3.6.0'
 }

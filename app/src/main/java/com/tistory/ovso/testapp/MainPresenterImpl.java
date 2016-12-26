@@ -15,8 +15,10 @@ public class MainPresenterImpl implements MainPresenter {
     private MainPresenter.View mView;
     private UserInteractor mUserInteractor;
     private RepoInteractor mRepoInteractor;
+    private MainModel mModel;
     MainPresenterImpl(MainPresenter.View view) {
         mView = view;
+        mModel = new MainModel();
         mUserInteractor = new UserInteractor();
         mRepoInteractor = new RepoInteractor();
         mUserInteractor.setOnResultListener(mOnUserResultListener);
@@ -25,7 +27,8 @@ public class MainPresenterImpl implements MainPresenter {
     private RepoInteractor.OnResultListener mOnRepoResultListener = new RepoInteractor.OnResultListener() {
         @Override
         public void onRepo(List<Repo> repoList) {
-            Log.d("dd", "");
+            mModel.setRepoList(repoList);
+            mView.setRecyclerViewAdapter(mModel.getList());
         }
 
         @Override
@@ -36,8 +39,9 @@ public class MainPresenterImpl implements MainPresenter {
     private UserInteractor.OnResultListener mOnUserResultListener = new UserInteractor.OnResultListener() {
         @Override
         public void onUser(User user) {
-            Log.d("dd", "");
-            mView.setUser(user.name, user.avatar_url);
+            if(mModel.setUser(user)) {
+                mRepoInteractor.execute("JakeWharton");
+            }
         }
 
         @Override
@@ -48,9 +52,7 @@ public class MainPresenterImpl implements MainPresenter {
     @Override
     public void onCreate() {
         mUserInteractor.execute("JakeWharton");
-        mRepoInteractor.execute("JakeWharton");
         mView.setRootView();
         mView.setToolbar();
-        mView.setRecyclerViewAdapter();
     }
 }

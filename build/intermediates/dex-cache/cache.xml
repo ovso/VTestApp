@@ -102,6 +102,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/ovso/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.0/a7537446a030da8eb0da4c71424d16c2589f6c4a/glide-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/glide-3.6.0_9d09993433ba6476b2416493196f70dddb4b67e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/ovso/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
         jumboMode="false"
         optimize="true"
