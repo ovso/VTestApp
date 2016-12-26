@@ -16,5 +16,7 @@ public interface MainPresenter {
         void setToolbar();
 
         void setRecyclerViewAdapter();
+
+        void setUser(String name, String avatar_url);
     }
 }

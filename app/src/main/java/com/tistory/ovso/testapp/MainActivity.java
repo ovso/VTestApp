@@ -49,4 +49,9 @@ public class MainActivity extends AppCompatActivity implements MainPresenter.Vie
     public void setRecyclerViewAdapter() {
 
     }
+
+    @Override
+    public void setUser(String name, String avatar_url) {
+
+    }
 }

@@ -2,22 +2,247 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_slice.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="b749e43fd9f8d2893fc74abdf6d5c8827a9b39c1">
-        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/main_slice_jar/classes.dex" />
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_c36f9a73532524b118b479004c88ec025fa5ff83.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/transforms/instantRunSlicer/debug/jars/1/1a/dependencies.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/ovso/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha7/constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="043af634811cccef2ffbf5e15361a85596fc8eb2">
-        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/transforms/dex/debug/folders/1000/1a/dependencies_a04daa0ba7a45142bf7f57e50e799370b16940a4/classes.dex" />
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha7_0b72482183f37271630da2d62a2d5cb754405d3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_6041e5c5d30e8e3b3448cbe3ac7c217e27f735f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_d67a355ac2dc33a34bcb96f9afddb1ce5b3c0add.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/gson-2.7_41b5eb6f4f66c03ebc0e39e1d406152e0f1654ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_74e6f67e0a6ae96a822e6e31b48c32fbf38d504d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_cf7691ebabb0853ec57fd02b77ea7e79b0379e0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_b9a6af451714c3eafa87bdf67eee10acb3c2745c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_0dbc5af608018794908b7855a2b469c4b005b6d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_966d0b1eda6bd35c819670537f85dc39df0fd6e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_b895f54cbbeea6856a62f69efae0c24ee8509e11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/okio-1.9.0_150e48f6caa06d163a958bfa4dd5918d56ff8de3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_17ffbf9d8a47ff55ba99e004c89d55d0c745ba5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_ca145b6fbe1c3d43ae6443f35a3990a81f20e8e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_a2695d3e6cdd8cd8c18243b51a3f47cd0430c813.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_6496b186b79158af6e7bbef01fb3d60cc876ffda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_68692f1cf183220f4fef6bf56e8df0deee028bbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_b6f43307b8a35a4136848cb927bbfa55b8b298bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha7_86f3971bab8ace5251a3cccedcd4edcadfa54281.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_a0751f488e21d86a104e1c1d3dd1df23671627ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_cd88be8aaa151bc4522895663a98d147d72c7f25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_f2a13c67a19c5f2ffe50151c736c92828d4eb33e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_d1a52a3674ac7e081e2aa1718739ed23cf972dbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.1/381fc1096ba65040d8e80ea43b2e1d9bad02345e/logging-interceptor-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.4.1_e1d5126fb2d4e17bea38c590209f9b7bf8007908.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_72426bd8ad1eecbad61b8e562e91081262642497.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_570cc59e7cc90bdfe6500ddd68121ebf4a23199b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/ovso/Documents/workspace/VTestApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_94c91c4c31e84324cd0d7d2b9eaea6ac1d9a8f39.jar" />
     </item>
 
 </items>

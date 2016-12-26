@@ -1,6 +1,8 @@
 package com.tistory.ovso.testapp.rest;
 
-import com.tistory.ovso.testapp.model.User;
+import com.tistory.ovso.testapp.model.Repo;
+
+import java.util.List;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
@@ -9,13 +11,12 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 
-public class UserInteractor {
+public class RepoInteractor {
 
-    private Call<User> mCall;
+    private Call<List<Repo>> mCall;
     public void execute(String user) {
 
         OkHttpClient.Builder client = new OkHttpClient.Builder();
@@ -30,20 +31,20 @@ public class UserInteractor {
 
         Service service = retrofit.create(Service.class);
         mCall = service.create(user);
-        mCall.enqueue(new Callback<User>() {
+        mCall.enqueue(new Callback<List<Repo>>() {
             @Override
-            public void onResponse(Call<User> call, Response<User> response) {
+            public void onResponse(Call<List<Repo>> repoList, Response<List<Repo>> response) {
 
                 if(response.isSuccessful()) {
-                    User user = response.body();
-                    mOnResultListener.onUser(user);
+                    List<Repo> repos = (List<Repo>) response.body();
+                    mOnResultListener.onRepo(repos);
                 } else {
                     mOnResultListener.onFail();
                 }
             }
 
             @Override
-            public void onFailure(Call<User> call, Throwable t) {
+            public void onFailure(Call<List<Repo>> call, Throwable t) {
                 t.printStackTrace();
                 mOnResultListener.onFail();
             }
@@ -61,13 +62,13 @@ public class UserInteractor {
     }
 
     public interface OnResultListener {
-        void onUser(User user);
+        void onRepo(List<Repo> repoList);
         void onFail();
     }
 
     public interface Service {
         //@FormUrlEncoded
-        @GET("users/{username}")//https://api.github.com/users/JakeWharton
-        Call<User> create(@Path("username") String username);
+        @GET("users/{username}/repos")//https://api.github.com/users/JakeWharton
+        Call<List<Repo>> create(@Path("username") String username);
     }
 }
